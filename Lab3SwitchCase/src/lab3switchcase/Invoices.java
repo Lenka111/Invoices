@@ -11,12 +11,8 @@ import java.util.Scanner;
  */
 public class Invoices {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+
     // the variables
     int invNum = 0;
     int numItems = 0;
@@ -38,7 +34,8 @@ public class Invoices {
     System.out.println("[ Invoice Processing ]");
     System.out.println("----------------------\n");
     System.out.println("Today's Date is: " + date + "\n");
-           // prompt user for data and receive data
+        
+    // prompt user for data and receive data
     System.out.println("please enter the invoice number");
     invNum = sc.nextInt();
     System.out.println("the invoice number is: " + invNum);
